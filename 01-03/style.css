@@ -3,6 +3,8 @@
 button:hover {
   cursor: pointer;
   transform: scale(1.3);
+  background: #AEA8D3;
+  color: #353535;
 }
 
 body {
