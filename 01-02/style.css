@@ -7,7 +7,7 @@ body {
 }
 
 .robot {
-
+  transform: rotateX(45deg);
 }
 
 .wrap {
