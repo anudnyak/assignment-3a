@@ -17,7 +17,7 @@ p {
     transform: translateX(-325%) scale(1) rotate(0deg);
   }
   100% {
-    transform: translateX(500px) scale(1.5)rotate(10deg);
+    transform: translateX(var(--dist)) scale(var(--scale)) rotate(var(--deg));
   }
 }
 
