@@ -5,11 +5,14 @@
   --dist: 0%;
   --scale: 2;
   --deg: 10deg;
+  --dur: 2s;
+  --delay: 0s;
+  --ease: linear;
 }
 
 p {
-  animation: moveIn 2s linear both;
-  margin:0.75rem 0;
+  animation: moveIn var(--dur) var(--delay) var(--ease) both;
+  margin: 0.75rem 0;
 }
 
 @keyframes moveIn {
