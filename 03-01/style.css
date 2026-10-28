@@ -4,7 +4,7 @@
 }
 
 .cloud02 {
-  
+  animation: float 30s 5s linear infinite backwards;
 }
 
 @keyframes float {
