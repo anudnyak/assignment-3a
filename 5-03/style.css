@@ -36,6 +36,8 @@ p:nth-of-type(2) {
 }
 
 p:nth-of-type(3) {
+  --deg: -5deg;
+  --dist: 100%;
   color: #fbacbe;
 }
 
