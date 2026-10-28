@@ -6,8 +6,8 @@
 }
 
 #outline {
- 
-} 
+  animation: fade .25s .4s linear both;
+}
 
 
 @keyframes beat {
