@@ -45,6 +45,7 @@ p:nth-of-type(2) {
 p:nth-of-type(3) {
   --deg: -5deg;
   --dist: 100%;
+  --ease: cubic-bezier(0.25, 1, 0.5, 1);
   color: #fbacbe;
 }
 
