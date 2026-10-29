@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@900&display=swap");
 
 :root {
   --dist: 0%;
@@ -39,7 +38,7 @@ p:nth-of-type(2) {
   --dist: 30%;
   --delay: 0.5s;
   --ease: cubic-bezier(0.34, 1.56, 0.64, 1);
-  color: #59C3C3;
+  color: #59c3c3;
 }
 
 p:nth-of-type(3) {
@@ -54,19 +53,17 @@ p:nth-of-type(4) {
   --deg: 15deg;
   --ease: cubic-bezier(0.7, 0, 0.84, 0);
   margin-top: 1em;
-  color: #DCF2B0;
+  color: #dcf2b0;
 }
 
 body {
-  background: #433F55;
+  background: #433f55;
   color: white;
-  font-family: 'Fira Sans', sans-serif;
-  font-size:3.5rem;
+  font-family: "Fira Sans", sans-serif;
+  font-size: 3.5rem;
   font-weight: 700;
   padding-top: 8rem;
-  display:flex;
+  display: flex;
   justify-content: center;
-  overflow:hidden;
+  overflow: hidden;
 }
-
-
