@@ -1,4 +1,3 @@
-
 .cloud01 {
   animation: float 25s linear infinite;
 }
@@ -16,27 +15,39 @@
   }
 }
 
-
 /* Other styles  */
 
 body {
-  margin:0;
-  padding:0;
+  margin: 0;
+  padding: 0;
 }
 
 .wrap {
   width: 800px;
   height: 650px;
   overflow: hidden;
-  position:relative;
+  position: relative;
 }
 
-.city, .cloud {position:absolute;}
+.city,
+.cloud {
+  position: absolute;
+}
 
-.city {z-index:100;}
+.city {
+  z-index: 100;
+}
 
-.cloud02 {top:76px;}
-.cloud01 {top:30px;}
+.cloud02 {
+  top: 76px;
+}
+.cloud01 {
+  top: 30px;
+}
 
-img.cloud {width:150px;}
-.city img {width: 100%;}
+img.cloud {
+  width: 150px;
+}
+.city img {
+  width: 100%;
+}
