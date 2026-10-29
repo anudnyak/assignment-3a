@@ -1,7 +1,10 @@
-
 @keyframes move {
- 0% {transform:translateX(0);}
- 100% {transform: translateX(900px);}
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(900px);
+  }
 }
 
 .robot {
@@ -12,8 +15,10 @@
 /*------ other styles ---*/
 
 body {
-  margin:3em;
-  background-color: #433F55;
+  margin: 3em;
+  background-color: #433f55;
 }
 
-img {width: 100px;}
+img {
+  width: 100px;
+}

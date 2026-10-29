@@ -1,17 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
 
 h1 {
-  color: #433F55;
-  font-family: 'Fira Mono', monospace;
-  overflow: hidden; 
-  border-right: .15em solid #CE2D4F; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .15em; 
-  animation: typing 3s steps(14),
-  blinking 0.5s steps(1) infinite;
+  color: #433f55;
+  font-family: "Fira Mono", monospace;
+  overflow: hidden;
+  border-right: 0.15em solid #ce2d4f;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation:
+    typing 3s steps(14),
+    blinking 0.5s steps(1) infinite;
 }
 
 @keyframes typing {
@@ -24,19 +23,18 @@ h1 {
 }
 
 @keyframes blinking {
-  0%, 100% {
+  0%,
+  100% {
     border-color: transparent;
   }
   50% {
-    border-color: #CE2D4F;
-    }
+    border-color: #ce2d4f;
+  }
 }
-
 
 body {
   padding-top: 5em;
   background: #cfcfcf;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
 }
-
