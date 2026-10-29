@@ -1,33 +1,14 @@
 body {
   display: flex;
   justify-content: center;
-  margin-top:3em;
-  background-color: #372D4D;
+  margin-top: 3em;
+  background-color: #372d4d;
 }
 
-img {width: 150px;}
+img {
+  width: 150px;
+}
 
 .robot {
   transform: rotate(45deg) scale(2) translate(100px, 200px);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

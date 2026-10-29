@@ -1,9 +1,8 @@
-
 body {
   display: flex;
   justify-content: center;
   margin-top: 3em;
-  background-color: #6F7295;
+  background-color: #6f7295;
   perspective: 1000px;
 }
 
@@ -15,8 +14,6 @@ body {
   width: 100%;
 }
 
-img {width: 300px;}
-
-
-
-
+img {
+  width: 300px;
+}
